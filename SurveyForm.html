@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Student Survey</p>
+    <form id="survey-form">
+        <div class="forms">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" />
+        </div>
+        <div class="forms">
+            <label for="age" id="label-age">Age(Optional)</label>
+            <input type="age" id="age" placeholder="Age" />
+        </div>
+        <div class="forms">
+            <label for="role" id="label-role">Which option best describes your current role?</label>
+            <select name="role" id="role" placeholder="Select current role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="other">Other</option>
+            </select>
+        </div class ="forms">
+        <label>Would You recommend freecodecamp to a friend?</label>
+
+        <label for="r1">
+            <input type="radio" id="r1" name="radio1">Definitly</input>
+        </label>
+        <label for="r2">
+            <input type="radio" id="r2" name="radio2">Maybe</input>
+        </label>
+        <label for="r3">
+            <input type="radio" id="r3" name="radio3">Notsure</input>
+        </label>
+        
+        <div class="forms">
+            <label for="project" id="label-project">Which option best describes your current role?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="other">Other</option>
+            </select>
+
+    
+        
+    </form>
+    
+</body>
+</html>
